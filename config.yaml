@@ -1,0 +1,192 @@
+path: C:/Users/Sabrina Lopez/OneDrive/Documents/GitHub/Yolov8_w_OpenImagesv7/data
+train: images/train
+val: images/val
+
+# Classes
+names:
+  0: Person
+  # 1: Book
+  # 2: Office supplies
+  # 3: Clothing
+  # 4: Footwear
+  # 5: Window
+  # 6: Box
+  # 7: Bottle
+  # 8: Food
+  # 9: Door
+  # 10: Wheel
+  # 11: Plant
+  # 12: Car
+  # 13: Human hair
+  # 14: Human arm
+  # 15: Human head
+  # 16: Building
+  # 17: Human body
+  # 18: Mammal
+  # 19: House
+  # 20: Chair
+  # 21: Tire
+  # 22: Fashion accessory
+  # 23: Table
+  # 24: Skyscraper
+  # 25: Land vehicle
+  # 26: Boat
+  # 27: Jeans
+  # 28: Human eye
+  # 29: Human hand
+  # 30: Human leg
+  # 31: Toy
+  # 32: Tower
+  # 33: Human nose
+  # 34: Bicycle wheel
+  # 35: Glasses  Dress
+  # 36: Vehicle
+  # 37: Bird
+  # 38: Sports equipment
+  # 39: Human mouth
+  # 40: Palm tree
+  # 41: Tree
+  # 42: Tableware
+  # 43: Drink
+  # 44: Bicycle
+  # 45: Furniture
+  # 46: Snack 
+  # 47: Sculpture
+  # 48: Flag
+  # 49: Dog
+  # 50: Dessert
+  # 51: Microphone
+  # 52: Fruit
+  # 53: Jacket
+  # 54: Guitar
+  # 55: Fast food 
+  # 56: Drum
+  # 57: Sunglasses
+  # 58: Poster
+  # 59: Fish
+  # 60: Baked goods
+  # 61: Shelf
+  # 62: Houseplant
+  # 63: Flowerpot
+  # 64: Airplane 
+  # 65: Sports uniform
+  # 66: Flower 
+  # 67: Vegetable
+  # 68: Human ear
+  # 69: Animal
+  # 70: Shorts
+  # 71: Musical instrument
+  # 72: Helmet 
+  # 73: Bicycle helmet
+  # 74: Duck
+  # 75: Wine
+  # 76: Cat
+  # 77: Auto part
+  # 78: Balloon
+  # 79: Motorcycle
+  # 80: Horse
+  # 81: Hat
+  # 82: Train 
+  # 83: Wine glass
+  # 84: Truck
+  # 85: Rose
+  # 86: Picture frame
+  # 87: Bus
+  # 88: Football helmet
+  # 89: Desk
+  # 90: Cattle
+  # 91: Bee
+  # 92: Tie 
+  # 93: Hiking equipment
+  # 94: Butterfly
+  # 95: Swimwear
+  # 96: Billboard
+  # 97: Goggles
+  # 98: Beer
+  # 99: Laptop
+  # 100: Cabinetry 
+  # 101: Marine invertebrates
+  # 102: Insect
+  # 103: Trousers
+  # 104: Goose
+  # 105: Strawberry
+  # 106: Vehicle registration plate 
+  # 107: Van
+  # 108: Shirt
+  # 109: Traffic light
+  # 110: Bench
+  # 111: Umbrella
+  # 112: Sun hat
+  # 113: Paddle
+  # 114: Tent
+  # 115: Sunflower 
+  # 116: Coat
+  # 117: Doll
+  # 118: Camera
+  # 119: Mobile phone
+  # 120: Tomato
+  # 121: Human face
+  # 122: Pumpkin 
+  # 123: Traffic sign
+  # 124: Computer monitor
+  # 125: Stairs
+  # 126: Candle
+  # 127: Pastry
+  # 128: Cake
+  # 129: Roller skates
+  # 130: Lantern 
+  # 131: Plate
+  # 132: Coffee cup
+  # 133: Coffee table
+  # 134: Bookcase
+  # 135: Watercraft
+  # 136: Football
+  # 137: Office building 
+  # 138: Maple
+  # 139: Curtain
+  # 140: Kitchen appliance
+  # 141: Muffin
+  # 142: Canoe
+  # 143: Computer keyboard
+  # 144: Swan
+  # 145: Bowl
+  # 146: Mushroom 
+  # 147: Cocktail
+  # 148: Drawer
+  # 149: Castle
+  # 150: Couch
+  # 151: Christmas tree
+  # 152: Taxi
+  # 153: Penguin
+  # 154: Cookie
+  # 155: Apple 
+  # 156: Swimming pool
+  # 157: Deer
+  # 158: Porch
+  # 159: Bread
+  # 160: Bowling equipment
+  # 161: Television
+  # 162: Fountain 
+  # 163: Lamp
+  # 164: Fedora
+  # 165: Bed
+  # 166: Beetle
+  # 167: Pillow
+  # 168: Ski
+  # 169: Carnivore
+  # 170: Platter
+  # 171: Sheep
+  # 172: Elephant 
+  # 173: Boot
+  # 174: High heels
+  # 175: Countertop
+  # 176: Salad
+  # 177: Cowboy hat
+  # 178: Seafood
+  # 179: Chicken
+  # 180: Coin
+  # 181: Monkey
+  # 182: Helicopter 
+  # 183: Tin can
+  # 184: Sandal
+  # 185: Juice 

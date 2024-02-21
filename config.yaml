@@ -19,13 +19,13 @@ names:
 # 12: Artichoke
 # 13: Auto part
 # 14: Axe
-# 15: Backpack
+0: Backpack
 # 16: Bagel
 # 17: Baked goods
 # 18: Balance beam
-  19: Balloon
-  20: Banana
-  21: Band-aid
+#  19: Balloon
+1: Banana
+2: Band-aid
 # 22: Banjo
 # 23: Barge
 # 24: Barrel
@@ -57,15 +57,15 @@ names:
 # 50: Blue jay
 # 51: Boat
 # 52: Bomb
-  53: Book
+3: Book
 # 54: Bookcase
-  55: Boot
-  56: Bottle
+#  55: Boot
+4: Bottle
 # 57: Bottle opener
 # 58: Bow and arrow
 # 59: Bowl
 # 60: Bowling equipment
-# 61: Box
+5: Box
 # 62: Boy
 # 63: Brassiere
 # 64: Bread
@@ -88,7 +88,7 @@ names:
 # 81: Camera
 # 82: Can opener
 # 83: Canary
-  84: Candle
+# 84: Candle
 # 85: Candy
 # 86: Cannon
 # 87: Canoe
@@ -106,7 +106,7 @@ names:
 # 99: Cello
 # 100: Centipede
 # 101: Chainsaw
-  102: Chair
+6: Chair
 # 103: Cheese
 # 104: Cheetah
 # 105: Chest of drawers
@@ -117,7 +117,7 @@ names:
 # 110: Christmas tree
 # 111: Clock
 # 112: Closet
-# 113: Clothing
+7: Clothing
 # 114: Coat
 # 115: Cocktail
 # 116: Cocktail shaker
@@ -125,7 +125,7 @@ names:
 # 118: Coffee cup
 # 119: Coffee table
 # 120: Coffeemaker
-  121: Coin
+8: Coin
 # 122: Common fig
 # 123: Common sunflower
 # 124: Computer keyboard
@@ -154,7 +154,7 @@ names:
 # 147: Dagger
 # 148: Dairy Product
 # 149: Deer
-# 150: Desk
+9: Desk
 # 151: Dessert
 # 152: Diaper
 # 153: Dice
@@ -165,14 +165,14 @@ names:
 # 158: Dog bed
 # 159: Doll
 # 160: Dolphin
-# 161: Door
+10: Door
 # 162: Door handle
 # 163: Doughnut
 # 164: Dragonfly
 # 165: Drawer
 # 166: Dress
 # 167: Drill (Tool)
-# 168: Drink
+11: Drink
 # 169: Drinking straw
 # 170: Drum
 # 171: Duck
@@ -198,7 +198,7 @@ names:
 # 191: Flowerpot
 # 192: Flute
 # 193: Flying disc
-# 194: Food
+12: Food
 # 195: Food processor
 # 196: Football
 # 197: Football helmet
@@ -243,7 +243,7 @@ names:
 # 236: Harp
 # 237: Harpsichord
 # 238: Hat
-# 239: Headphones
+13: Headphones
 # 240: Heater
 # 241: Hedgehog
 # 242: Helicopter
@@ -299,7 +299,7 @@ names:
 # 292: Ladder
 # 293: Ladle
 # 294: Ladybug
-# 295: Lamp
+14: Lamp
 # 296: Land vehicle
 # 297: Lantern
 # 298: Laptop
@@ -376,7 +376,7 @@ names:
 # 369: Pencil sharpener
 # 370: Penguin
 # 371: Perfume
-  372: Person
+15: Person
 # 373: Personal care
 # 374: Personal flotation device
 # 375: Piano
@@ -388,7 +388,7 @@ names:
 # 381: Pitcher (Container)
 # 382: Pizza
 # 383: Pizza cutter
-# 384: Plant
+16: Plant
 # 385: Plastic bag
 # 386: Plate
 # 387: Platter
@@ -536,7 +536,7 @@ names:
 # 529: Toilet
 # 530: Toilet paper
 # 531: Tomato
-# 532: Tool
+17: Tool
 # 533: Toothbrush
 # 534: Torch
 # 535: Tortoise
@@ -571,7 +571,7 @@ names:
 # 564: Wall clock
 # 565: Wardrobe
 # 566: Washing machine
-# 567: Waste container
+18: Waste container
 # 568: Watch
 # 569: Watercraft
 # 570: Watermelon
@@ -582,7 +582,7 @@ names:
 # 575: Whisk
 # 576: Whiteboard
 # 577: Willow
-# 578: Window
+19: Window
 # 579: Window blind
 # 580: Wine
 # 581: Wine glass

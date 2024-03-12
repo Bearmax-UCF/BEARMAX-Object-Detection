@@ -1,11 +1,7 @@
-from detector import *
+from ultralytics import YOLO
 
-classFile = "openimagesv7.names"
-videoPath = 0 # for webcam
-threshold = 0.5
+model = YOLO("yolov8x-oiv7.pt")
 
-detector = Detector()
-detector.readClasses(classFile)
-detector.loadModel()
-# detector.predictImage(imagePath, threshold)
-detector.predictVideo(videoPath, threshold)
+results = model.predict(source="0", show=True, conf=0.4)
+
+print(results)

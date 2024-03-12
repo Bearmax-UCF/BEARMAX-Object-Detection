@@ -1,0 +1,13 @@
+name: bearmax
+dependencies:
+  - requests=2.31.0
+  - boto3=1.28.65
+  - pandas=2.1.1
+  - tqdm=4.66.1
+  - ultralytics
+  - tensorflow
+  - pip
+  - torch
+  - torchvision
+  - opencv-python
+  - thop

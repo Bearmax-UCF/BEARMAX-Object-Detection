@@ -1,598 +1,561 @@
-path: C:/Users/Sabrina Lopez/OneDrive/Documents/GitHub/Yolov8_w_OpenImagesv7/data
+path: /home/cop4935.student14/SD_OD/data
 train: images/train
 val: images/val
+test: images/test
 
 # Classes
+nc: 553
 names:
-# 0: Accordion
-# 1: Adhesive tape
-# 2: Aircraft
-# 3: Airplane
-# 4: Alarm clock
-# 5: Alpaca
-# 6: Ambulance
-# 7: Animal
-# 8: Ant
-# 9: Antelope
-# 10: Apple
-# 11: Armadillo
-# 12: Artichoke
-# 13: Auto part
-# 14: Axe
-0: Backpack
-# 16: Bagel
-# 17: Baked goods
-# 18: Balance beam
-#  19: Balloon
-1: Banana
-2: Band-aid
-# 22: Banjo
-# 23: Barge
-# 24: Barrel
-# 25: Baseball bat
-# 26: Baseball glove
-# 27: Bat (Animal)
-# 28: Bathroom accessory
-# 29: Bathroom cabinet
-# 30: Bathtub
-# 31: Beaker
-# 32: Bear
-# 33: Bed
-# 34: Bee
-# 35: Beehive
-# 36: Beer
-# 37: Beetle
-# 38: Bell pepper
-# 39: Belt
-# 40: Bench
-# 41: Bicycle
-# 42: Bicycle helmet
-# 43: Bicycle wheel
-# 44: Bidet
-# 45: Billboard
-# 46: Billiard table
-# 47: Binoculars
-# 48: Bird
-# 49: Blender
-# 50: Blue jay
-# 51: Boat
-# 52: Bomb
-3: Book
-# 54: Bookcase
-#  55: Boot
-4: Bottle
-# 57: Bottle opener
-# 58: Bow and arrow
-# 59: Bowl
-# 60: Bowling equipment
-5: Box
-# 62: Boy
-# 63: Brassiere
-# 64: Bread
-# 65: Briefcase
-# 66: Broccoli
-# 67: Bronze sculpture
-# 68: Brown bear
-# 69: Building
-# 70: Bull
-# 71: Burrito
-# 72: Bus
-# 73: Bust
-# 74: Butterfly
-# 75: Cabbage
-# 76: Cabinetry
-# 77: Cake
-# 78: Cake stand
-# 79: Calculator
-# 80: Camel
-# 81: Camera
-# 82: Can opener
-# 83: Canary
-# 84: Candle
-# 85: Candy
-# 86: Cannon
-# 87: Canoe
-# 88: Cantaloupe
-# 89: Car
-# 90: Carnivore
-# 91: Carrot
-# 92: Cart
-# 93: Castle
-# 94: Cat
-# 95: Cat furniture
-# 96: Caterpillar
-# 97: Cattle
-# 98: Ceiling fan
-# 99: Cello
-# 100: Centipede
-# 101: Chainsaw
-6: Chair
-# 103: Cheese
-# 104: Cheetah
-# 105: Chest of drawers
-# 106: Chicken
-# 107: Chime
-# 108: Chisel
-# 109: Chopsticks
-# 110: Christmas tree
-# 111: Clock
-# 112: Closet
-7: Clothing
-# 114: Coat
-# 115: Cocktail
-# 116: Cocktail shaker
-# 117: Coconut
-# 118: Coffee cup
-# 119: Coffee table
-# 120: Coffeemaker
-8: Coin
-# 122: Common fig
-# 123: Common sunflower
-# 124: Computer keyboard
-# 125: Computer monitor
-# 126: Computer mouse
-# 127: Container
-# 128: Convenience store
-# 129: Cookie
-# 130: Cooking spray
-# 131: Corded phone
-# 132: Cosmetics
-# 133: Couch
-# 134: Countertop
-# 135: Cowboy hat
-# 136: Crab
-# 137: Cream
-# 138: Cricket ball
-# 139: Crocodile
-# 140: Croissant
-# 141: Crown
-# 142: Crutch
-# 143: Cucumber
-# 144: Cupboard
-# 145: Curtain
-# 146: Cutting board
-# 147: Dagger
-# 148: Dairy Product
-# 149: Deer
-9: Desk
-# 151: Dessert
-# 152: Diaper
-# 153: Dice
-# 154: Digital clock
-# 155: Dinosaur
-# 156: Dishwasher
-# 157: Dog
-# 158: Dog bed
-# 159: Doll
-# 160: Dolphin
-10: Door
-# 162: Door handle
-# 163: Doughnut
-# 164: Dragonfly
-# 165: Drawer
-# 166: Dress
-# 167: Drill (Tool)
-11: Drink
-# 169: Drinking straw
-# 170: Drum
-# 171: Duck
-# 172: Dumbbell
-# 173: Eagle
-# 174: Elephant
-# 175: Envelope
-# 176: Eraser
-# 177: Face powder
-# 178: Facial tissue holder
-# 179: Falcon
-# 180: Fashion accessory
-# 181: Fast food
-# 182: Fax
-# 183: Fedora
-# 184: Filing cabinet
-# 185: Fire hydrant
-# 186: Fireplace
-# 187: Fish
-# 188: Flag
-# 189: Flashlight
-# 190: Flower
-# 191: Flowerpot
-# 192: Flute
-# 193: Flying disc
-12: Food
-# 195: Food processor
-# 196: Football
-# 197: Football helmet
-# 198: Footwear
-# 199: Fork
-# 200: Fountain
-# 201: Fox
-# 202: French fries
-# 203: French horn
-# 204: Frog
-# 205: Fruit
-# 206: Frying pan
-# 207: Furniture
-# 208: Garden Asparagus
-# 209: Gas stove
-# 210: Giraffe
-# 211: Girl
-# 212: Glasses
-# 213: Glove
-# 214: Goat
-# 215: Goggles
-# 216: Goldfish
-# 217: Golf ball
-# 218: Golf cart
-# 219: Gondola
-# 220: Goose
-# 221: Grape
-# 222: Grapefruit
-# 223: Grinder
-# 224: Guacamole
-# 225: Guitar
-# 226: Hair dryer
-# 227: Hair spray
-# 228: Hamburger
-# 229: Hammer
-# 230: Hamster
-# 231: Hand dryer
-# 232: Handbag
-# 233: Handgun
-# 234: Harbor seal
-# 235: Harmonica
-# 236: Harp
-# 237: Harpsichord
-# 238: Hat
-13: Headphones
-# 240: Heater
-# 241: Hedgehog
-# 242: Helicopter
-# 243: Helmet
-# 244: High heels
-# 245: Hiking equipment
-# 246: Hippopotamus
-# 247: Home appliance
-# 248: Honeycomb
-# 249: Horizontal bar
-# 250: Horse
-# 251: Hot dog
-# 252: House
-# 253: Houseplant
-# 254: Human arm
-# 255: Human body
-# 256: Human ear
-# 257: Human eye
-# 258: Human face
-# 259: Human foot
-# 260: Human hair
-# 261: Human hand
-# 262: Human head
-# 263: Human leg
-# 264: Human mouth
-# 265: Human nose
-# 266: Humidifier
-# 267: Ice cream
-# 268: Indoor rower
-# 269: Infant bed
-# 270: Insect
-# 271: Invertebrate
-# 272: Ipod
-# 273: Isopod
-# 274: Jacket
-# 275: Jacuzzi
-# 276: Jaguar (Animal)
-# 277: Jeans
-# 278: Jellyfish
-# 279: Jet ski
-# 280: Jug
-# 281: Juice
-# 282: Kangaroo
-# 283: Kettle
-# 284: Kitchen & dining room table
-# 285: Kitchen appliance
-# 286: Kitchen knife
-# 287: Kitchen utensil
-# 288: Kitchenware
-# 289: Kite
-# 290: Knife
-# 291: Koala
-# 292: Ladder
-# 293: Ladle
-# 294: Ladybug
-14: Lamp
-# 296: Land vehicle
-# 297: Lantern
-# 298: Laptop
-# 299: Lavender (Plant)
-# 300: Leopard
-# 301: Light bulb
-# 302: Light switch
-# 303: Lighthouse
-# 304: Lily
-# 305: Limousine
-# 306: Lion
-# 307: Lipstick
-# 308: Lizard
-# 309: Lobster
-# 310: Loveseat
-# 311: Luggage and bags
-# 312: Lynx
-# 313: Magpie
-# 314: Mammal
-# 315: Man
-# 316: Mango
-# 317: Maple
-# 318: Marine invertebrates
-# 319: Marine mammal
-# 320: Measuring cup
-# 321: Mechanical fan
-# 322: Medical equipment
-# 323: Microphone
-# 324: Microwave oven
-# 325: Milk
-# 326: Miniskirt
-# 327: Mirror
-# 328: Missile
-# 329: Mixer
-# 330: Mixing bowl
-# 331: Mobile phone
-# 332: Monkey
-# 333: Moths and butterflies
-# 334: Motorcycle
-# 335: Mouse
-# 336: Muffin
-# 337: Mug
-# 338: Mule
-# 339: Mushroom
-# 340: Musical instrument
-# 341: Musical keyboard
-# 342: Nail (Construction)
-# 343: Necklace
-# 344: Nightstand
-# 345: Oboe
-# 346: Office building
-# 347: Office supplies
-# 348: Organ (Musical Instrument)
-# 349: Ostrich
-# 350: Otter
-# 351: Oven
-# 352: Owl
-# 353: Oyster
-# 354: Paddle
-# 355: Palm tree
-# 356: Pancake
-# 357: Panda
-# 358: Paper cutter
-# 359: Paper towel
-# 360: Parachute
-# 361: Parking meter
-# 362: Parrot
-# 363: Pasta
-# 364: Pastry
-# 365: Peach
-# 366: Pear
-# 367: Pen
-# 368: Pencil case
-# 369: Pencil sharpener
-# 370: Penguin
-# 371: Perfume
-15: Person
-# 373: Personal care
-# 374: Personal flotation device
-# 375: Piano
-# 376: Picnic basket
-# 377: Picture frame
-# 378: Pig
-# 379: Pillow
-# 380: Pineapple
-# 381: Pitcher (Container)
-# 382: Pizza
-# 383: Pizza cutter
-16: Plant
-# 385: Plastic bag
-# 386: Plate
-# 387: Platter
-# 388: Plumbing fixture
-# 389: Polar bear
-# 390: Pomegranate
-# 391: Popcorn
-# 392: Porch
-# 393: Porcupine
-# 394: Poster
-# 395: Potato
-# 396: Power plugs and sockets
-# 397: Pressure cooker
-# 398: Pretzel
-# 399: Printer
-# 400: Pumpkin
-# 401: Punching bag
-# 402: Rabbit
-# 403: Raccoon
-# 404: Racket
-# 405: Radish
-# 406: Ratchet (Device)
-# 407: Raven
-# 408: Rays and skates
-# 409: Red panda
-# 410: Refrigerator
-# 411: Remote control
-# 412: Reptile
-# 413: Rhinoceros
-# 414: Rifle
-# 415: Ring binder
-# 416: Rocket
-# 417: Roller skates
-# 418: Rose
-# 419: Rugby ball
-# 420: Ruler
-# 421: Salad
-# 422: Salt and pepper shakers
-# 423: Sandal
-# 424: Sandwich
-# 425: Saucer
-# 426: Saxophone
-# 427: Scale
-# 428: Scarf
-# 429: Scissors
-# 430: Scoreboard
-# 431: Scorpion
-# 432: Screwdriver
-# 433: Sculpture
-# 434: Sea lion
-# 435: Sea turtle
-# 436: Seafood
-# 437: Seahorse
-# 438: Seat belt
-# 439: Segway
-# 440: Serving tray
-# 441: Sewing machine
-# 442: Shark
-# 443: Sheep
-# 444: Shelf
-# 445: Shellfish
-# 446: Shirt
-# 447: Shorts
-# 448: Shotgun
-# 449: Shower
-# 450: Shrimp
-# 451: Sink
-# 452: Skateboard
-# 453: Ski
-# 454: Skirt
-# 455: Skull
-# 456: Skunk
-# 457: Skyscraper
-# 458: Slow cooker
-# 459: Snack
-# 460: Snail
-# 461: Snake
-# 462: Snowboard
-# 463: Snowman
-# 464: Snowmobile
-# 465: Snowplow
-# 466: Soap dispenser
-# 467: Sock
-# 468: Sofa bed
-# 469: Sombrero
-# 470: Sparrow
-# 471: Spatula
-# 472: Spice rack
-# 473: Spider
-# 474: Spoon
-# 475: Sports equipment
-# 476: Sports uniform
-# 477: Squash (Plant)
-# 478: Squid
-# 479: Squirrel
-# 480: Stairs
-# 481: Stapler
-# 482: Starfish
-# 483: Stationary bicycle
-# 484: Stethoscope
-# 485: Stool
-# 486: Stop sign
-# 487: Strawberry
-# 488: Street light
-# 489: Stretcher
-# 490: Studio couch
-# 491: Submarine
-# 492: Submarine sandwich
-# 493: Suit
-# 494: Suitcase
-# 495: Sun hat
-# 496: Sunglasses
-# 497: Surfboard
-# 498: Sushi
-# 499: Swan
-# 500: Swim cap
-# 501: Swimming pool
-# 502: Swimwear
-# 503: Sword
-# 504: Syringe
-# 505: Table
-# 506: Table tennis racket
-# 507: Tablet computer
-# 508: Tableware
-# 509: Taco
-# 510: Tank
-# 511: Tap
-# 512: Tart
-# 513: Taxi
-# 514: Tea
-# 515: Teapot
-# 516: Teddy bear
-# 517: Telephone
-# 518: Television
-# 519: Tennis ball
-# 520: Tennis racket
-# 521: Tent
-# 522: Tiara
-# 523: Tick
-# 524: Tie
-# 525: Tiger
-# 526: Tin can
-# 527: Tire
-# 528: Toaster
-# 529: Toilet
-# 530: Toilet paper
-# 531: Tomato
-17: Tool
-# 533: Toothbrush
-# 534: Torch
-# 535: Tortoise
-# 536: Towel
-# 537: Tower
-# 538: Toy
-# 539: Traffic light
-# 540: Traffic sign
-# 541: Train
-# 542: Training bench
-# 543: Treadmill
-# 544: Tree
-# 545: Tree house
-# 546: Tripod
-# 547: Trombone
-# 548: Trousers
-# 549: Truck
-# 550: Trumpet
-# 551: Turkey
-# 552: Turtle
-# 553: Umbrella
-# 554: Unicycle
-# 555: Van
-# 556: Vase
-# 557: Vegetable
-# 558: Vehicle
-# 559: Vehicle registration plate
-# 560: Violin
-# 561: Volleyball (Ball)
-# 562: Waffle
-# 563: Waffle iron
-# 564: Wall clock
-# 565: Wardrobe
-# 566: Washing machine
-18: Waste container
-# 568: Watch
-# 569: Watercraft
-# 570: Watermelon
-# 571: Weapon
-# 572: Whale
-# 573: Wheel
-# 574: Wheelchair
-# 575: Whisk
-# 576: Whiteboard
-# 577: Willow
-19: Window
-# 579: Window blind
-# 580: Wine
-# 581: Wine glass
-# 582: Wine rack
-# 583: Winter melon
-# 584: Wok
-# 585: Woman
-# 586: Wood-burning stove
-# 587: Woodpecker
-# 588: Worm
-# 589: Wrench
-# 590: Zebra
-# 591: Zucchini
+  0: Accordion
+  1: Adhesive tape
+  2: Airplane
+  3: Alarm clock
+  4: Alpaca
+  5: Ambulance
+  6: Animal
+  7: Ant
+  8: Antelope
+  9: Apple
+  10: Armadillo
+  11: Artichoke
+  12: Auto part
+  13: Backpack
+  14: Bagel
+  15: Baked goods
+  16: Balance beam
+  17: Balloon
+  18: Banana
+  19: Band-aid
+  20: Banjo
+  21: Barge
+  22: Barrel
+  23: Baseball bat
+  24: Baseball glove
+  25: Bat (Animal)
+  26: Bathroom accessory
+  27: Bathroom cabinet
+  28: Bathtub
+  29: Bear
+  30: Bed
+  31: Bee
+  32: Beehive
+  33: Beetle
+  34: Bell pepper
+  35: Belt
+  36: Bench
+  37: Bicycle
+  38: Bicycle helmet
+  39: Bicycle wheel
+  40: Bidet
+  41: Billboard
+  42: Billiard table
+  43: Binoculars
+  44: Bird
+  45: Blender
+  46: Blue jay
+  47: Boat
+  48: Book
+  49: Bookcase
+  50: Boot
+  51: Bottle
+  52: Bottle opener
+  53: Bow and arrow
+  54: Bowl
+  55: Bowling equipment
+  56: Box
+  57: Bread
+  58: Briefcase
+  59: Broccoli
+  60: Bronze sculpture
+  61: Brown bear
+  62: Building
+  63: Bull
+  64: Burrito
+  65: Bus
+  66: Butterfly
+  67: Cabbage
+  68: Cabinetry
+  69: Cake
+  70: Cake stand
+  71: Calculator
+  72: Camel
+  73: Camera
+  74: Can opener
+  75: Canary
+  76: Candle
+  77: Candy
+  78: Canoe
+  79: Cantaloupe
+  80: Car
+  81: Carnivore
+  82: Carrot
+  83: Cart
+  84: Castle
+  85: Cat
+  86: Cat furniture
+  87: Caterpillar
+  88: Cattle
+  89: Ceiling fan
+  90: Cello
+  91: Centipede
+  92: Chair
+  93: Cheese
+  94: Cheetah
+  95: Chest of drawers
+  96: Chicken
+  97: Chime
+  98: Chisel
+  99: Chopsticks
+  100: Christmas tree
+  101: Clock
+  102: Closet
+  103: Clothing
+  104: Coat
+  105: Coconut
+  106: Coffee cup
+  107: Coffee table
+  108: Coffeemaker
+  109: Coin
+  110: Common fig
+  111: Common sunflower
+  112: Computer keyboard
+  113: Computer monitor
+  114: Computer mouse
+  115: Container
+  116: Convenience store
+  117: Cookie
+  118: Cooking spray
+  119: Corded phone
+  120: Cosmetics
+  121: Couch
+  122: Countertop
+  123: Cowboy hat
+  124: Crab
+  125: Cream
+  126: Cricket ball
+  127: Crocodile
+  128: Croissant
+  129: Crown
+  130: Crutch
+  131: Cucumber
+  132: Cupboard
+  133: Curtain
+  134: Cutting board
+  135: Dairy Product
+  136: Deer
+  137: Desk
+  138: Dessert
+  139: Diaper
+  140: Dice
+  141: Digital clock
+  142: Dinosaur
+  143: Dishwasher
+  144: Dog
+  145: Dog bed
+  146: Doll
+  147: Dolphin
+  148: Door
+  149: Door handle
+  150: Doughnut
+  151: Dragonfly
+  152: Drawer
+  153: Dress
+  154: Drink
+  155: Drinking straw
+  156: Drum
+  157: Duck
+  158: Dumbbell
+  159: Eagle
+  160: Elephant
+  161: Envelope
+  162: Eraser
+  163: Face powder
+  164: Facial tissue holder
+  165: Falcon
+  166: Fashion accessory
+  167: Fast food
+  168: Fax
+  169: Fedora
+  170: Filing cabinet
+  171: Fire hydrant
+  172: Fireplace
+  173: Fish
+  174: Flag
+  175: Flashlight
+  176: Flower
+  177: Flowerpot
+  178: Flute
+  179: Flying disc
+  180: Food
+  181: Food processor
+  182: Football
+  183: Football helmet
+  184: Footwear
+  185: Fork
+  186: Fountain
+  187: Fox
+  188: French fries
+  189: French horn
+  190: Frog
+  191: Fruit
+  192: Frying pan
+  193: Furniture
+  194: Garden Asparagus
+  195: Gas stove
+  196: Giraffe
+  197: Glasses
+  198: Glove
+  199: Goat
+  200: Goggles
+  201: Goldfish
+  202: Golf ball
+  203: Golf cart
+  204: Gondola
+  205: Goose
+  206: Grape
+  207: Grapefruit
+  208: Grinder
+  209: Guacamole
+  210: Guitar
+  211: Hair dryer
+  212: Hair spray
+  213: Hamburger
+  214: Hammer
+  215: Hamster
+  216: Hand dryer
+  217: Handbag
+  218: Handgun
+  219: Harbor seal
+  220: Harmonica
+  221: Harp
+  222: Harpsichord
+  223: Hat
+  224: Headphones
+  225: Heater
+  226: Hedgehog
+  227: Helicopter
+  228: Helmet
+  229: High heels
+  230: Hiking equipment
+  231: Hippopotamus
+  232: Home appliance
+  233: Honeycomb
+  234: Horizontal bar
+  235: Horse
+  236: Hot dog
+  237: House
+  238: Houseplant
+  239: Humidifier
+  240: Ice cream
+  241: Indoor rower
+  242: Infant bed
+  243: Insect
+  244: Invertebrate
+  245: Ipod
+  246: Isopod
+  247: Jacket
+  248: Jacuzzi
+  249: Jaguar (Animal)
+  250: Jeans
+  251: Jellyfish
+  252: Jet ski
+  253: Jug
+  254: Juice
+  255: Kangaroo
+  256: Kettle
+  257: Kitchen & dining room table
+  258: Kitchen appliance
+  259: Kitchen knife
+  260: Kitchen utensil
+  261: Kitchenware
+  262: Kite
+  263: Koala
+  264: Ladder
+  265: Ladle
+  266: Ladybug
+  267: Lamp
+  268: Land vehicle
+  269: Lantern
+  270: Laptop
+  271: Lavender (Plant)
+  272: Leopard
+  273: Light bulb
+  274: Light switch
+  275: Lighthouse
+  276: Lily
+  277: Limousine
+  278: Lion
+  279: Lipstick
+  280: Lizard
+  281: Lobster
+  282: Loveseat
+  283: Luggage and bags
+  284: Lynx
+  285: Magpie
+  286: Mammal
+  287: Mango
+  288: Maple
+  289: Marine invertebrates
+  290: Marine mammal
+  291: Measuring cup
+  292: Mechanical fan
+  293: Medical equipment
+  294: Microphone
+  295: Microwave oven
+  296: Milk
+  297: Mirror
+  298: Mixer
+  299: Mixing bowl
+  300: Mobile phone
+  301: Monkey
+  302: Moths and butterflies
+  303: Motorcycle
+  304: Mouse
+  305: Muffin
+  306: Mug
+  307: Mule
+  308: Mushroom
+  309: Musical instrument
+  310: Musical keyboard
+  311: Nail (Construction)
+  312: Necklace
+  313: Nightstand
+  314: Oboe
+  315: Office building
+  316: Office supplies
+  317: Organ (Musical Instrument)
+  318: Ostrich
+  319: Otter
+  320: Oven
+  321: Owl
+  322: Oyster
+  323: Paddle
+  324: Palm tree
+  325: Pancake
+  326: Panda
+  327: Paper cutter
+  328: Paper towel
+  329: Parachute
+  330: Parking meter
+  331: Parrot
+  332: Pasta
+  333: Pastry
+  334: Peach
+  335: Pear
+  336: Pen
+  337: Pencil case
+  338: Pencil sharpener
+  339: Penguin
+  340: Perfume
+  341: Person
+  342: Personal care
+  343: Personal flotation device
+  344: Piano
+  345: Picnic basket
+  346: Picture frame
+  347: Pig
+  348: Pillow
+  349: Pineapple
+  350: Pitcher (Container)
+  351: Pizza
+  352: Pizza cutter
+  353: Plant
+  354: Plastic bag
+  355: Plate
+  356: Platter
+  357: Plumbing fixture
+  358: Polar bear
+  359: Pomegranate
+  360: Popcorn
+  361: Porch
+  362: Porcupine
+  363: Poster
+  364: Potato
+  365: Power plugs and sockets
+  366: Pressure cooker
+  367: Pretzel
+  368: Printer
+  369: Pumpkin
+  370: Punching bag
+  371: Rabbit
+  372: Raccoon
+  373: Racket
+  374: Radish
+  375: Raven
+  376: Rays and skates
+  377: Red panda
+  378: Refrigerator
+  379: Remote control
+  380: Reptile
+  381: Rhinoceros
+  382: Ring binder
+  383: Rocket
+  384: Roller skates
+  385: Rose
+  386: Rugby ball
+  387: Ruler
+  388: Salad
+  389: Salt and pepper shakers
+  390: Sandal
+  391: Sandwich
+  392: Saucer
+  393: Saxophone
+  394: Scale
+  395: Scarf
+  396: Scissors
+  397: Scoreboard
+  398: Scorpion
+  399: Screwdriver
+  400: Sculpture
+  401: Sea lion
+  402: Sea turtle
+  403: Seafood
+  404: Seahorse
+  405: Seat
+  406: Segway
+  407: Serving tray
+  408: Sewing machine
+  409: Shark
+  410: Sheep
+  411: Shelf
+  412: Shellfish
+  413: Shirt
+  414: Shorts
+  415: Shower
+  416: Shrimp
+  417: Sink
+  418: Skateboard
+  419: Ski
+  420: Skirt
+  421: Skull
+  422: Skunk
+  423: Skyscraper
+  424: Slow cooker
+  425: Snack
+  426: Snail
+  427: Snake
+  428: Snowboard
+  429: Snowman
+  430: Snowmobile
+  431: Snowplow
+  432: Soap dispenser
+  433: Sock
+  434: Sofa bed
+  435: Sombrero
+  436: Sparrow
+  437: Spatula
+  438: Spice rack
+  439: Spider
+  440: Spoon
+  441: Sports equipment
+  442: Sports uniform
+  443: Squash (Plant)
+  444: Squid
+  445: Squirrel
+  446: Stairs
+  447: Stapler
+  448: Starfish
+  449: Stationary bicycle
+  450: Stethoscope
+  451: Stool
+  452: Stop sign
+  453: Strawberry
+  454: Street light
+  455: Stretcher
+  456: Studio couch
+  457: Submarine
+  458: Submarine sandwich
+  459: Suit
+  460: Suitcase
+  461: Sun hat
+  462: Sunglasses
+  463: Surfboard
+  464: Sushi
+  465: Swan
+  466: Swim cap
+  467: Swimming pool
+  468: Swimwear
+  469: Sword
+  470: Syringe
+  471: Table
+  472: Table tennis racket
+  473: Tablet computer
+  474: Tableware
+  475: Taco
+  476: Tap
+  477: Tart
+  478: Taxi
+  479: Tea
+  480: Teapot
+  481: Teddy bear
+  482: Telephone
+  483: Television
+  484: Tennis ball
+  485: Tennis racket
+  486: Tent
+  487: Tiara
+  488: Tick
+  489: Tie
+  490: Tiger
+  491: Tin can
+  492: Tire
+  493: Toaster
+  494: Toilet
+  495: Toilet paper
+  496: Tomato
+  497: Tool
+  498: Toothbrush
+  499: Torch
+  500: Tortoise
+  501: Towel
+  502: Tower
+  503: Toy
+  504: Traffic light
+  505: Traffic sign
+  506: Train
+  507: Training bench
+  508: Treadmill
+  509: Tree
+  510: Tree house
+  511: Tripod
+  512: Trombone
+  513: Trousers
+  514: Truck
+  515: Trumpet
+  516: Turkey
+  517: Turtle
+  518: Umbrella
+  519: Unicycle
+  520: Van
+  521: Vase
+  522: Vegetable
+  523: Vehicle
+  524: Vehicle registration plate
+  525: Violin
+  526: Volleyball (Ball)
+  527: Waffle
+  528: Waffle iron
+  529: Wall clock
+  530: Wardrobe
+  531: Washing machine
+  532: Waste container
+  533: Watch
+  534: Watercraft
+  535: Watermelon
+  536: Whale
+  537: Wheel
+  538: Wheelchair
+  539: Whisk
+  540: Whiteboard
+  541: Willow
+  542: Window
+  543: Window blind
+  544: Wine glass
+  545: Winter melon
+  546: Wok
+  547: Wood-burning stove
+  548: Woodpecker
+  549: Worm
+  550: Wrench
+  551: Zebra
+  552: Zucchini

@@ -18,4 +18,4 @@ metrics.box.maps   # a list contains map50-95 of each category
 model.export(format="saved_model")  # export the model to ONNX format
 """
 
-model.tune(data='config.yaml', epochs=1, iterations=10, optimizer='AdamW', plots=False, save=True, val=True)
+model.tune(data='config.yaml', epochs=1, iterations=10, optimizer='AdamW', plots=True, save=True, val=True)

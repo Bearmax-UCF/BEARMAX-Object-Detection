@@ -1,28 +1,7 @@
-import cv2
+from ultralytics import YOLO
 
-cap = cv2.VideoCapture(0)
+model = YOLO("yolov8x-oiv7.pt")
 
-if cap.isOpened() == False:
-    print("Error opening video stream or file")
+results = model.predict(source="0", show=True, conf=0.4)
 
-while cap.isOpened():
-    # Capture frame-by-frame
-  ret, frame = cap.read()
-  if ret == True:
- 
-    # Display the resulting frame
-    cv2.imshow('Frame',frame)
- 
-    # Press Q on keyboard to  exit
-    if cv2.waitKey(25) & 0xFF == ord('q'):
-      break
- 
-  # Break the loop
-  else: 
-    break
- 
-# When everything done, release the video capture object
-cap.release()
- 
-# Closes all the frames
-cv2.destroyAllWindows()
+print(results)
